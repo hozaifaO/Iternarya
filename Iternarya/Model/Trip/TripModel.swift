@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+class TripModel {
+    var title: String!
+    var id: String!
+    
+    init(title:String) {
+        id = UUID().uuidString
+        self.title = title
+    }
+}

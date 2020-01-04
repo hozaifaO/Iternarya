@@ -7,3 +7,22 @@
 //
 
 import Foundation
+
+class TripFunctions {
+    
+    static func createTrip(tripModel: TripModel){
+        
+    }
+    
+    static func readTrip(){
+        
+    }
+    
+    static func UpdateTrip(tripModel: TripModel){
+        
+    }
+    
+    static func DeleteTrip(tripModel: TripModel){
+        
+    }
+}
