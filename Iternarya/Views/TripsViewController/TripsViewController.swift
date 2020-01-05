@@ -20,6 +20,8 @@ class TripsViewController: UIViewController {
             self?.tableView.reloadData()
             
         }
+        
+        view.backgroundColor = Theme.BackgroundColor
     }
 }
  // Extension for functions that relate to Tabel View

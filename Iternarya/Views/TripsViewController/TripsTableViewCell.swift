@@ -16,6 +16,10 @@ class TripsTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         cardView.addRoundCorderandShadow()
+        titleLabel.font = UIFont(name: Theme.mainFontName, size: 35)
+        titleLabel.textColor = Theme.FontColor
+        cardView.backgroundColor = Theme.CellBackGroundColor
+        
     }
     
     func setup(model: TripModel) {

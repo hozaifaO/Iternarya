@@ -18,6 +18,9 @@
 		28747ED023C0E748003BFD9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28747ECE23C0E748003BFD9E /* LaunchScreen.storyboard */; };
 		28CA6F6C23C1564D004F4B0A /* TripsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA6F6B23C1564D004F4B0A /* TripsTableViewCell.swift */; };
 		28EF9EA123C2319100FAEABB /* ExtUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EF9EA023C2319100FAEABB /* ExtUIView.swift */; };
+		28EF9EA523C233DE00FAEABB /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EF9EA423C233DE00FAEABB /* Theme.swift */; };
+		28EF9EA723C234FD00FAEABB /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28EF9EA623C234FD00FAEABB /* Lobster-Regular.ttf */; };
+		28EF9EA923C236E600FAEABB /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EF9EA823C236E600FAEABB /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		28747ED123C0E748003BFD9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28CA6F6B23C1564D004F4B0A /* TripsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsTableViewCell.swift; sourceTree = "<group>"; };
 		28EF9EA023C2319100FAEABB /* ExtUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtUIView.swift; sourceTree = "<group>"; };
+		28EF9EA423C233DE00FAEABB /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		28EF9EA623C234FD00FAEABB /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
+		28EF9EA823C236E600FAEABB /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,7 @@
 		28747EC223C0E747003BFD9E /* Iternarya */ = {
 			isa = PBXGroup;
 			children = (
+				28EF9EA323C233A900FAEABB /* Resources */,
 				28EF9E9D23C2312D00FAEABB /* Extension */,
 				28346B5823C1468A005C2C39 /* Views */,
 				28093C4E23C10C5500AA942A /* Model */,
@@ -120,6 +127,16 @@
 				28EF9EA023C2319100FAEABB /* ExtUIView.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		28EF9EA323C233A900FAEABB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28EF9EA623C234FD00FAEABB /* Lobster-Regular.ttf */,
+				28EF9EA423C233DE00FAEABB /* Theme.swift */,
+				28EF9EA823C236E600FAEABB /* Colors.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +197,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28EF9EA923C236E600FAEABB /* Colors.xcassets in Resources */,
 				28747ED023C0E748003BFD9E /* LaunchScreen.storyboard in Resources */,
+				28EF9EA723C234FD00FAEABB /* Lobster-Regular.ttf in Resources */,
 				28346B5B23C146CE005C2C39 /* TripsViewController.storyboard in Resources */,
 				28747ECD23C0E748003BFD9E /* Assets.xcassets in Resources */,
 			);
@@ -193,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28EF9EA523C233DE00FAEABB /* Theme.swift in Sources */,
 				28747EC423C0E747003BFD9E /* AppDelegate.swift in Sources */,
 				28093C5523C10ED500AA942A /* Data.swift in Sources */,
 				28747EC623C0E747003BFD9E /* SceneDelegate.swift in Sources */,
