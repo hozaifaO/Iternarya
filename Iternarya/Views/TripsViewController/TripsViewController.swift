@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TripsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
+class TripsViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -21,7 +21,9 @@ class TripsViewController: UIViewController, UITableViewDataSource, UITableViewD
             
         }
     }
-    
+}
+ // Extension for functions that relate to Tabel View
+extension TripsViewController:  UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return Data.tripModel.count
     }

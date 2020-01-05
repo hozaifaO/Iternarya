@@ -17,6 +17,7 @@
 		28747ECD23C0E748003BFD9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28747ECC23C0E748003BFD9E /* Assets.xcassets */; };
 		28747ED023C0E748003BFD9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28747ECE23C0E748003BFD9E /* LaunchScreen.storyboard */; };
 		28CA6F6C23C1564D004F4B0A /* TripsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA6F6B23C1564D004F4B0A /* TripsTableViewCell.swift */; };
+		28EF9EA123C2319100FAEABB /* ExtUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EF9EA023C2319100FAEABB /* ExtUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		28747ECF23C0E748003BFD9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28747ED123C0E748003BFD9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28CA6F6B23C1564D004F4B0A /* TripsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsTableViewCell.swift; sourceTree = "<group>"; };
+		28EF9EA023C2319100FAEABB /* ExtUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		28747EC223C0E747003BFD9E /* Iternarya */ = {
 			isa = PBXGroup;
 			children = (
+				28EF9E9D23C2312D00FAEABB /* Extension */,
 				28346B5823C1468A005C2C39 /* Views */,
 				28093C4E23C10C5500AA942A /* Model */,
 				28747EC323C0E747003BFD9E /* AppDelegate.swift */,
@@ -109,6 +112,14 @@
 				28747ED123C0E748003BFD9E /* Info.plist */,
 			);
 			path = Iternarya;
+			sourceTree = "<group>";
+		};
+		28EF9E9D23C2312D00FAEABB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				28EF9EA023C2319100FAEABB /* ExtUIView.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +197,7 @@
 				28093C5523C10ED500AA942A /* Data.swift in Sources */,
 				28747EC623C0E747003BFD9E /* SceneDelegate.swift in Sources */,
 				28346B5D23C14713005C2C39 /* TripsViewController.swift in Sources */,
+				28EF9EA123C2319100FAEABB /* ExtUIView.swift in Sources */,
 				28093C5323C10C9A00AA942A /* TripFunctions.swift in Sources */,
 				28CA6F6C23C1564D004F4B0A /* TripsTableViewCell.swift in Sources */,
 				28093C5123C10C8C00AA942A /* TripModel.swift in Sources */,
