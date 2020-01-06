@@ -10,6 +10,7 @@ import UIKit
 
 class TripsViewController: UIViewController {
     
+    @IBOutlet weak var addBtn: UIButton!
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -22,6 +23,7 @@ class TripsViewController: UIViewController {
         }
         
         view.backgroundColor = Theme.BackgroundColor
+        addBtn.customFloatingBtn()
     }
 }
  // Extension for functions that relate to Tabel View

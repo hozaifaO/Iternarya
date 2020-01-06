@@ -51,6 +51,11 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fOC-3D-4Q8">
+                                <rect key="frame" x="338" y="779" width="56" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="PlusShapeImage"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -62,6 +67,7 @@
                         <viewLayoutGuide key="safeArea" id="G54-Ct-UBK"/>
                     </view>
                     <connections>
+                        <outlet property="addBtn" destination="fOC-3D-4Q8" id="kcs-dO-bCj"/>
                         <outlet property="tableView" destination="H9U-Tn-g9T" id="gsy-dp-EMr"/>
                     </connections>
                 </viewController>
@@ -70,4 +76,7 @@
             <point key="canvasLocation" x="-28.985507246376812" y="56.919642857142854"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="PlusShapeImage" width="35" height="35"/>
+    </resources>
 </document>
