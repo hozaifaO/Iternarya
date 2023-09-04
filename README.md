@@ -1,2 +1,2 @@
 # Iternarya
-iOS App Made while learning
+This is an iOS Application made while learning Swift, MVC, and github.
